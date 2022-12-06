@@ -1,0 +1,25 @@
+h1 {
+    font-size: 80px;
+  }
+
+.static {
+    background: white;
+}
+  
+.static:hover {
+    opacity:0;
+}
+
+.myGallery {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+  
+.myGallery img {
+    width: 100%;
+}
+
+/* img {
+    border: 5px solid black;
+  } */
